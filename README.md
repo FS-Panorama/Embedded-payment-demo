@@ -74,5 +74,44 @@ Open Program.cs
 
 # At the top menu start the API
 Run > Start Debugging.
+
+```
+## To run the application
+
+![image](https://github.com/user-attachments/assets/f046eaf7-ed45-45f2-89bb-b86ef1e37b4b)
+
+
+```sh
+# Place the URL of the running Sample API in the appropriate textbox
+-for IIS Express this will probabably be https://localhost:44316
+-for VS Code it might be https://localhost:5069
 ```
 
+![image](https://github.com/user-attachments/assets/43f8e17f-c32a-46f6-867c-abcbde012447)
+
+```bash
+# Create your line items and select Checkout
+```
+
+<img src="https://github.com/user-attachments/assets/a6c6206a-4780-4ae0-92c4-c271d0589f36" width="400">
+
+```sh
+# You may enter a test card number for demo purposes:
+Card: 5454545454545454 CVV: 999
+Exp Date can be anything
+```
+
+<img src="https://github.com/user-attachments/assets/181366f4-fc77-46e9-a985-9628cb08f55b" width="400">
+
+```bash
+# View the results on success
+```
+
+<img src="https://github.com/user-attachments/assets/156d9293-8cee-400e-9010-2ca36c07a58c" width="800">
+
+
+## Documentation
+
+For step-by-step tutorials and more information:
+
+- [https://developers.frontstream.com/introducing-our-embedded-form/how-to-implement](https://developers.frontstream.com/introducing-our-embedded-form/how-to-implement)
