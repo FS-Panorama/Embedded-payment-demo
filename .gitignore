@@ -54,3 +54,5 @@ Thumbs.db
 /SamplePaymentApi/.vs/SamplePaymentApi
 /SamplePaymentApi/obj
 *.user
+/SampleEpfApp/.vs
+/SampleEpfApp/.vscode

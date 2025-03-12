@@ -1,0 +1,23 @@
+<div class="min-h-screen flex relative lg:static surface-ground">
+  <div id="app-sidebar-1" class="surface-section h-screen hidden lg:block flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none" style="width:280px">
+    <div class="flex flex-column h-full">
+      <div class="flex align-items-center px-5 flex-shrink-0" style="height:60px">
+        <a href="https://developers.frontstream.com/">
+          <img id="fsImage2" src="assets/images/FS-LOGO-no-tagline-small.png" alt="Image" height="30">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen flex flex-column relative flex-auto">
+
+    <div class="p-1 flex flex-column flex-auto">
+      <div class="border-2 border-dashed surface-border border-round surface-section flex-auto">
+        <div style="display: contents">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

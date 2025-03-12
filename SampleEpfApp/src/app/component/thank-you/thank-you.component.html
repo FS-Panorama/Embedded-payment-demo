@@ -1,0 +1,19 @@
+<div *ngIf="this.tokenError">
+  <h2> Invalid token or already token already used</h2>
+</div>
+
+<div *ngIf="!this.tokenError">
+  <h2> Your payment was successful </h2>
+  <br />
+  <h4>Thank you for your payment of {{this.summary.amount | currency: 'USD'}} on {{this.summary.timestamp}}.</h4>
+
+  <p>Other details:</p>
+  <pre>{{
+      this.rawResult
+     | json
+}}
+</pre>
+</div>
+<div class="grid grid-nogutter justify-content-center align-items-baseline">
+  <p-button pRipple [rounded]="true" label="Home" (onClick)="goToPage('demo')" class="p-button-primary"></p-button>
+</div>
