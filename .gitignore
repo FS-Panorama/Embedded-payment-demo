@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Embedded-payment-demo/FileContentIndex/1a944477-5eb2-4200-aa3c-44b827f8a15d.vsidx
+/.vs/Embedded-payment-demo/FileContentIndex/e2edbcf4-e101-4cf8-8317-9ad53fe6b5fa.vsidx
+*.vsidx
